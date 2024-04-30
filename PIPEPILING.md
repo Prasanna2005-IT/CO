@@ -185,12 +185,12 @@ A hazard is when something happens that makes the pipeline stop.
 >- One common issue is when the processor has to wait for the branch
   target address to be calculated during a branch instruction.
 
-**Mitigation technique :**
+>**Mitigation technique :**
 
-- **Branch Prediction:** Guessing if a branch will be taken or not
+>- **Branch Prediction:** Guessing if a branch will be taken or not
 before it's confirmed, so the pipeline can keep going without
 stopping.
 
-- **Speculative Execution:** Running instructions based on branch
+>- **Speculative Execution:** Running instructions based on branch
 predictions to lessen the effect of wrong guesses on the
 pipeline's speed.
