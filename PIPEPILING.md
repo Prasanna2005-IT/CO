@@ -174,7 +174,7 @@ A hazard is when something happens that makes the pipeline stop.
 > **Register Renaming:** This involves reassigning logical registers to
 > physical registers in order to break dependencies and enable
 > out-of-order execution.
-
+![data](data.png)
 **Control Hazards :**
 >
 >- Control hazards happen when the program's flow changes, like with
