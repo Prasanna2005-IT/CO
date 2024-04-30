@@ -200,3 +200,7 @@ predictions to lessen the effect of wrong guesses on the
 pipeline's speed.
 
 ![control](control.png)
+
+>**Conclusion:**
+>
+>We have learnt some basics concept of Pipelining and it's hazards.
