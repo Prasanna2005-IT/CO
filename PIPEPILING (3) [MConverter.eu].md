@@ -129,7 +129,7 @@ A hazard is when something happens that makes the pipeline stop.
 >
 > When hardware resources required by one instruction are unavailable
 > due to another instruction in the pipeline using them, structural
-> hazards occur**.**
+> hazards occurs.
 >
 > **Typical reasons include:**
 >
@@ -187,9 +187,9 @@ A hazard is when something happens that makes the pipeline stop.
 **Mitigation technique :**
 
 - **Branch Prediction:** Guessing if a branch will be taken or not
-  > before it's confirmed, so the pipeline can keep going without
-  > stopping.
+before it's confirmed, so the pipeline can keep going without
+stopping.
 
 - **Speculative Execution:** Running instructions based on branch
-  > predictions to lessen the effect of wrong guesses on the
-  > pipeline's speed.
+predictions to lessen the effect of wrong guesses on the
+pipeline's speed.
