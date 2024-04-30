@@ -126,7 +126,7 @@ normal operation.
 
 A hazard is when something happens that makes the pipeline stop.
 
-> **Structural hazards :**
+ **Structural hazards :**
 >
 > When hardware resources required by one instruction are unavailable
 > due to another instruction in the pipeline using them, structural
@@ -175,7 +175,7 @@ A hazard is when something happens that makes the pipeline stop.
 > physical registers in order to break dependencies and enable
 > out-of-order execution.
 
->**Control Hazards :**
+**Control Hazards :**
 >
 >- Control hazards happen when the program's flow changes, like with
   branches or jumps.
