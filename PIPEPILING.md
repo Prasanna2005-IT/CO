@@ -17,6 +17,7 @@
 
 - The more stages we have, the faster we can get things done, as long as
   we have a lot of instructions to work with.
+  
 ![Pipelining image](pipe.png)
 
 **Pipelining stages :**
@@ -146,7 +147,8 @@ A hazard is when something happens that makes the pipeline stop.
 > instructions.
 >
 > **Pipeline Interlocks**: Pipeline stages are introduced to detect and
-> resolve conflicts dynamically. 
+> resolve conflicts dynamically.
+
 >![structural](structural.png)
 
 **Data Hazards :**
@@ -174,7 +176,9 @@ A hazard is when something happens that makes the pipeline stop.
 > **Register Renaming:** This involves reassigning logical registers to
 > physical registers in order to break dependencies and enable
 > out-of-order execution.
+> 
 ![data](data.png)
+
 **Control Hazards :**
 >
 >- Control hazards happen when the program's flow changes, like with
@@ -194,4 +198,5 @@ stopping.
 >- **Speculative Execution:** Running instructions based on branch
 predictions to lessen the effect of wrong guesses on the
 pipeline's speed.
+
 ![control](control.png)
