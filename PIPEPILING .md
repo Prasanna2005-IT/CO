@@ -17,7 +17,8 @@
 
 - The more stages we have, the faster we can get things done, as long as
   we have a lot of instructions to work with.
-![PIPELINING](Pipelining .png)
+
+![PIPELINING](Pipelining.png)
 
 **Pipelining stages :**
 
