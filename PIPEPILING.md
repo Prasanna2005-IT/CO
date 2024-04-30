@@ -146,8 +146,7 @@ A hazard is when something happens that makes the pipeline stop.
 > instructions.
 >
 > **Pipeline Interlocks**: Pipeline stages are introduced to detect and
-> resolve conflicts dynamically. This can be done by inserting stall
-> cycles or using bypass paths to avoid resource contention.
+> resolve conflicts dynamically. 
 >![structural](structural.png)
 
 **Data Hazards :**
