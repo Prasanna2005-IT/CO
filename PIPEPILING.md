@@ -175,14 +175,14 @@ A hazard is when something happens that makes the pipeline stop.
 > physical registers in order to break dependencies and enable
 > out-of-order execution.
 
-**Control Hazards :**
-
-- Control hazards happen when the program's flow changes, like with
+>**Control Hazards :**
+>
+>- Control hazards happen when the program's flow changes, like with
   branches or jumps.
 
-- They can mess up the order of instructions.
+>- They can mess up the order of instructions.
 
-- One common issue is when the processor has to wait for the branch
+>- One common issue is when the processor has to wait for the branch
   target address to be calculated during a branch instruction.
 
 **Mitigation technique :**
